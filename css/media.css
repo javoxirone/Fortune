@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1200px) {
+	header .section-header .menu ul li {
+		margin-left: 35px;
+	}
+	header .section-header .menu ul li a {
+		font-size: 14px;
+	}
+	header .banner .banner-heading:after {
+		right: -100px;
+	}
+	main .management .item .management-text .interior-text .heading-title {
+		margin-bottom: 10px;
+	}
+	main .management .item .management-text .interior-text p {
+		margin-bottom: 5px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	header .banner .banner-heading:after {
+		content: none;
+	}
+	header .section-header .menu ul {
+		left: inherit;
+		position: fixed;
+		padding-top: 0;
+		display: block;
+		margin: 0;
+		transition: .5s;
+		top: 0;
+		bottom: 0;
+		transform: perspective(1000px) translateX(100%);
+		transform-origin: right center 0cm;
+		width: max-content;
+		right: 0;
+		background-color: #1273eb;
+		z-index: 100000;
+	}
+	header .section-header .menu ul li {
+		margin: 0;
+		width: 100%;
+	}
+	header .section-header .menu ul li a {
+		width: 100%;
+		display: block;
+		font-size: 16px;
+		text-align: left;
+		padding: 15px 180px 15px 20px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	header .section-header .menu ul .close-icon {
+		display: inline-block;
+		text-align: right;
+	}
+	header .section-header .menu ul .close-icon a {
+		font-size: 21px;
+		text-align: right;
+		padding-right: 15px;
+	}
+	.toggle-nav {
+		display: block;
+	}
+	header .section-header .phone .phone-number {
+		display: none;
+	}
+	header .section-header .menu ul li.phone {
+		height: auto;
+		display: inline-block;
+	}
+	header .section-header .menu ul li.phone a.phone-menu {
+		padding: 15px 0;
+		text-align: center;
+	}
+	header .section-header .menu ul li a:hover {
+		color: #fff;
+	}
+	header {
+		height: 560px;
+	}
+	header .banner {
+		top: 3%;
+	}
+	main .mobile-img {
+		display: none;
+	}
+	main .mobile-text {
+		width: 100%;
+		text-align: center;
+	}
+	main .download {
+		justify-content: center;
+	}
+	main .section-mobile {
+		height: 300px;
+	}
+	main .about-us {
+		flex-wrap: wrap;
+	}
+	main .about-us .item-right {
+		margin-top: 30px;
+	}
+	main .location-right {
+		margin-top: 30px;
+		height: 330px;
+	}
+	main .location-right:after {
+		right: -100vw;
+		left: -100vw;
+	}
+	footer .footer-menu ul li {
+		padding: 0 !important;
+	}
+	header .banner .banner-heading form {
+		width: 75%;
+	}
+	main .container-mobile {
+		width: 100%;
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	main .location-right:after {
+		right: 0;
+		left: 0;
+	}
+	main .location .iframe {
+		width: 100%;
+	}
+	main .location {
+		flex-wrap: wrap;
+	}
+	main .location .form {
+		margin: 0;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.col-lg-4.col-md-4.menu-none {
+		position: absolute;
+	}
+	main .about-us .item-left {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	footer .footer-menu.social {
+		margin-top: 30px;
+	}
+	.footer-menu {
+		margin-top: 30px;
+	}
+	footer .footer-top {
+		padding: 55px 0;
+	}
+	header .banner .banner-heading form {
+		width: 100%;
+	}
+	header .banner .banner-heading h1 {
+		font-size: 30px;
+	}
+}	
+@media only screen and (max-width: 380px) {
+	main .management .item .management-img {
+		height: 228px;
+	}
+	header .banner .banner-heading h1 {
+		font-size: 20px;
+	}
+	header {
+		height: 460px;
+	}
+	header .banner {
+		top: 9%;
+	}
+	header .banner .banner-heading form .submit {
+		font-size: 14px;
+		padding: 0 17px;
+	}
+	main .reviews img {
+		height: 100%;
+		display: none;
+	}
+	main .reviews .user img {
+		border-radius: 100%;
+		display: inline-block;
+	}
+	main .reviews .user-block {
+		margin-top: 0;
+	}
+	main section {
+		padding: 65px 0;
+	}
+	main .section-mobile {
+		height: 360px;
+	}
+	main .download {
+		flex-wrap: wrap;
+	}
+	main .download a {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	main .download a:first-child {
+		margin: 10px;
+	}
+	main .mobile-text h5 {
+		font-size: 19px;
+	}
+	main .mobile-text p {
+		font-size: 14px;
+	}
+	main .heading {
+		font-size: 27px;
+		margin-bottom: 30px;
+	}
+	main .location-right {
+		padding: 15px;
+		height: 269px;
+	}
+	.logo a img {
+		width: 100%;
+	}
+	footer .footer-menu.social ul li {
+		margin-right: 14px;
+	}
+}
